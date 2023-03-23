@@ -15,22 +15,22 @@ void main() {
   ));
 }
 
-// class BallPage extends StatelessWidget {
-//   const BallPage({super.key});
+class BallPage extends StatelessWidget {
+  const BallPage({super.key});
 
-//   // This widget is the root of your application.
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       backgroundColor: Colors.cyanAccent,
-//       appBar: AppBar(
-//         title: const Text("Ask me anything"),
-//         backgroundColor: Colors.amberAccent,
-//       ),
-//       body: const Ball(),
-//     );
-//   }
-// }
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.cyanAccent,
+      appBar: AppBar(
+        title: const Text("Ask me anything"),
+        backgroundColor: Colors.amberAccent,
+      ),
+      body: const Ball(),
+    );
+  }
+}
 
 class Ball extends StatefulWidget {
   const Ball({super.key});
