@@ -25,7 +25,7 @@ class BallPage extends StatelessWidget {
       backgroundColor: Colors.cyanAccent,
       appBar: AppBar(
         title: const Text("Ask me anything"),
-        backgroundColor: Colors.amberAccent,
+        backgroundColor: Color.fromARGB(255, 64, 255, 102),
       ),
       body: const Ball(),
     );
